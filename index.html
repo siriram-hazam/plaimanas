@@ -1,0 +1,509 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PLAIMANAS - Fashion & Editorial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <!-- Editorial Overlay -->
+    <div class="editorial-overlay">
+      <div class="editorial-overlay-content">
+        <h3 class="editorial-overlay-title">EDITORIAL</h3>
+        <a href="#" class="editorial-overlay-item">A.S.C</a>
+        <a href="#" class="editorial-overlay-item">BAZAAR</a>
+        <a href="#" class="editorial-overlay-item">ELLE</a>
+        <a href="#" class="editorial-overlay-item">GQ</a>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="nav-left">
+          <div class="currency-selector">
+            <span class="currency-text">TH - THB</span>
+            <div class="currency-dropdown">
+              <a href="#" class="currency-option" data-currency="TH - THB"
+                >TH - THB</a
+              >
+              <a href="#" class="currency-option" data-currency="US - USD"
+                >US - USD</a
+              >
+            </div>
+          </div>
+        </div>
+        <button class="hamburger" aria-label="Menu">
+          <svg
+            class="hamburger-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <line x1="4" y1="7" x2="20" y2="7" />
+            <line x1="4" y1="17" x2="20" y2="17" />
+          </svg>
+          <svg
+            class="close-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <line x1="6" y1="6" x2="18" y2="18" />
+            <line x1="18" y1="6" x2="6" y2="18" />
+          </svg>
+        </button>
+        <div class="nav-center">
+          <a href="#" class="nav-link">WOMEN</a>
+          <a href="#" class="nav-link">COLLECTIONS</a>
+          <div class="nav-link dropdown-trigger">EDITORIAL</div>
+          <a href="#" class="nav-link">NEWS</a>
+          <a href="#" class="nav-link">STORIES</a>
+        </div>
+        <div class="nav-right">
+          <a href="#" class="nav-link sign-in-link">SIGN IN</a>
+          <a href="#" class="nav-icon">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2 2h3l3.6 12h8.8l3.6-8H6"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <circle cx="10" cy="18" r="1" fill="currentColor" />
+              <circle cx="16" cy="18" r="1" fill="currentColor" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+      <div class="mobile-menu-links">
+        <a href="#" class="mobile-menu-link">WOMEN</a>
+        <a href="#" class="mobile-menu-link">COLLECTIONS</a>
+        <div class="mobile-editorial">
+          <div class="mobile-editorial-trigger mobile-menu-link">
+            EDITORIAL <span class="mobile-editorial-arrow">▼</span>
+          </div>
+          <div class="mobile-editorial-sub">
+            <a href="#" class="mobile-editorial-item">A.S.C</a>
+            <a href="#" class="mobile-editorial-item">BAZAAR</a>
+            <a href="#" class="mobile-editorial-item">ELLE</a>
+            <a href="#" class="mobile-editorial-item">GQ</a>
+            <a href="#" class="mobile-editorial-item">L'OFFICIAL THAILAND</a>
+            <a href="#" class="mobile-editorial-item">NUMERO</a>
+            <a href="#" class="mobile-editorial-item">VOGUE</a>
+          </div>
+        </div>
+        <a href="#" class="mobile-menu-link">NEWS</a>
+        <a href="#" class="mobile-menu-link">STORIES</a>
+      </div>
+      <div class="mobile-menu-logo">PLAIMANAS</div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-image">
+        <video
+          src="images/mockup_video576.mp4"
+          autoplay
+          muted
+          loop
+          playsinline
+          class="hero-img"
+        ></video>
+        <h1 class="hero-title">PLAIMANAS</h1>
+      </div>
+    </section>
+
+    <!-- New Section -->
+    <section class="featured-section new-section">
+      <div class="featured-card">
+        <div class="featured-image">
+          <img
+            src="images/7b6529a12a4f5ab332188c7dac157175d7d93817.jpg"
+            alt="New Item"
+          />
+          <div class="featured-label">NEW</div>
+        </div>
+        <h3 class="featured-title">
+          Sed egestas, nibh a condimentum imperdiet
+        </h3>
+        <p class="featured-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, molestie ruam
+          justo ut lacus. Proin vitae
+        </p>
+      </div>
+    </section>
+
+    <!-- Bestseller Section -->
+    <section class="featured-section bestseller-section">
+      <div class="featured-card">
+        <div class="featured-image bestseller-scroll">
+          <video
+            src="images/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+          ></video>
+          <div class="bestseller-sticky-label">BESTSELLER</div>
+        </div>
+        <h3 class="featured-title">
+          Sed egestas, nibh a condimentum imperdiet
+        </h3>
+        <p class="featured-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, molestie ruam
+          justo ut lacus. Proin vitae
+        </p>
+      </div>
+    </section>
+
+    <!-- Collections Section -->
+    <section class="collections-section">
+      <div class="collection-main">
+        <img
+          src="images/c6b2c87677418227a1bb072efb7bec28f1a54014.jpg"
+          alt="Collection 01"
+          class="collection-default"
+        />
+        <video
+          src="images/DTS_THE_LEADER_Joey_Bania_Clips_ID10.mp4"
+          muted
+          loop
+          playsinline
+          class="collection-hover"
+        ></video>
+        <div class="collection-label">COLLECTION 01</div>
+      </div>
+      <div class="collection-grid">
+        <div class="collection-item">
+          <img
+            src="images/f5a8b21b615bf2137dab5ecf7747b3b5503e057d.jpg"
+            alt="Collection 02"
+            class="collection-default"
+          />
+          <img
+            src="images/fe05c5d37eb2c0d3b5a0c02ddcc0cc05aa72320e.jpg"
+            alt="Collection 02 Hover"
+            class="collection-hover"
+          />
+          <div class="collection-label">COLLECTION 02</div>
+        </div>
+        <div class="collection-item">
+          <img
+            src="images/fe05c5d37eb2c0d3b5a0c02ddcc0cc05aa72320e.jpg"
+            alt="Collection 03"
+            class="collection-default"
+          />
+          <img
+            src="images/f5a8b21b615bf2137dab5ecf7747b3b5503e057d.jpg"
+            alt="Collection 03 Hover"
+            class="collection-hover"
+          />
+          <div class="collection-label">COLLECTION 03</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG Arrow Definitions -->
+    <svg
+      class="svg-defs"
+      xmlns="http://www.w3.org/2000/svg"
+      style="display: none"
+    >
+      <symbol
+        id="arrow-right"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="5" y1="12" x2="19" y2="12" />
+        <polyline points="12 5 19 12 12 19" />
+      </symbol>
+      <symbol
+        id="arrow-left"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <line x1="19" y1="12" x2="5" y2="12" />
+        <polyline points="12 19 5 12 12 5" />
+      </symbol>
+    </svg>
+
+    <!-- Marquee Section -->
+    <div class="marquee-container">
+      <div class="marquee">
+        <div class="marquee-content">
+          <span class="marquee-item">NEW ARRIVAL</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-right" /></svg
+          ></span>
+          <span class="marquee-item">BEST SELLING</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-left" /></svg
+          ></span>
+          <span class="marquee-item">NEW ARRIVAL</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-right" /></svg
+          ></span>
+          <span class="marquee-item">BEST SELLING</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-left" /></svg
+          ></span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span class="marquee-item">NEW ARRIVAL</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-right" /></svg
+          ></span>
+          <span class="marquee-item">BEST SELLING</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-left" /></svg
+          ></span>
+          <span class="marquee-item">NEW ARRIVAL</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-right" /></svg
+          ></span>
+          <span class="marquee-item">BEST SELLING</span>
+          <span class="marquee-arrow"
+            ><svg width="32" height="32"><use href="#arrow-left" /></svg
+          ></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features-section">
+      <div class="feature-item">
+        <h3 class="feature-title">WORLDWIDE SHIPPING</h3>
+        <p class="feature-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, molestie quam
+          justo ut lacus. Proin vitae
+        </p>
+      </div>
+      <div class="feature-item">
+        <h3 class="feature-title">CUSTOMER SERVICE</h3>
+        <p class="feature-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+        </p>
+      </div>
+      <div class="feature-item">
+        <h3 class="feature-title">SECURE PAYMENT</h3>
+        <p class="feature-description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+        </p>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="faq-header">
+        <h2 class="faq-title">FREQUENTLY ASKED QUESTIONS</h2>
+        <p class="faq-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo.
+        </p>
+        <div class="faq-tabs">
+          <button class="faq-tab active">ORDERS</button>
+          <button class="faq-tab">SHIPPING</button>
+          <button class="faq-tab">RETURNS & EXCHANGES</button>
+          <button class="faq-tab">SIZING & PRODUCTS</button>
+        </div>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item active">
+          <div class="faq-question">
+            <span>WHAT IS YOUR RETURN POLICY?</span>
+            <span class="faq-icon">−</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Items can be returned within 14 days of receipt, provided they are
+              unworn, unwashed, and in original condition with tags attached.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>CAN I EXCHANGE FOR A DIFFERENT SIZE?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Yes, we offer free exchanges for different sizes within 14 days of
+              receipt.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question">
+            <span>ARE SALE ITEMS REFUNDABLE?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-answer">
+            <p>
+              Sale items are final sale and cannot be returned or exchanged.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+      <div class="contact-container">
+        <div class="contact-left">
+          <h2 class="contact-title">MAKE AN INQUIRY</h2>
+          <p class="contact-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+            nisl non rhoncus commodo.
+          </p>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="radio-group">
+                <label class="radio-label">
+                  <input type="radio" name="type" value="onsite" checked />
+                  <span>Onsite</span>
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="type" value="hybrid" />
+                  <span>Hybrid</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-row">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Full name*"
+                required
+              />
+              <input
+                type="email"
+                class="form-input"
+                placeholder="Email"
+                value="Plaimanas@gmail.com"
+              />
+            </div>
+            <div class="form-row">
+              <input
+                type="tel"
+                class="form-input"
+                placeholder="Phone Number*"
+                required
+              />
+              <select class="form-input form-select">
+                <option value="">Select Subject*</option>
+                <option value="general">General inquiry</option>
+                <option value="job">Job Application</option>
+                <option value="media">Media & Press</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label class="checkbox-label">
+                <input type="checkbox" required />
+                <span>I agree to all terms & conditions</span>
+              </label>
+            </div>
+            <button type="submit" class="form-submit">SEND</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Homepage Button -->
+    <div class="homepage-link-container">
+      <a href="#top" class="homepage-link">HOMEPAGE</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4 class="footer-heading">ABOUT</h4>
+          <ul class="footer-links">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Editorial</a></li>
+            <li><a href="#">Stories</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-heading">HELP</h4>
+          <ul class="footer-links">
+            <li><a href="#">Payment Notification</a></li>
+            <li><a href="#">Customer Service</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-heading">SOCIAL</h4>
+          <ul class="footer-links">
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4 class="footer-heading">LEGAL</h4>
+          <ul class="footer-links">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookies Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section newsletter">
+          <h4 class="footer-heading">NEWSLETTER</h4>
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Email" />
+            <button type="submit" class="newsletter-button">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">©PLAIMANAS</p>
+        <p class="footer-credit">Web by --</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
