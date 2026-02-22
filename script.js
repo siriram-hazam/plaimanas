@@ -284,34 +284,4 @@ function debounce(func, wait) {
       });
     });
   }
-
-  // Custom cursor (desktop)
-  if (window.innerWidth > 1024) {
-    const cursor = document.createElement('div');
-    cursor.className = 'custom-cursor';
-    cursor.style.cssText = `
-      position: fixed; width: 20px; height: 20px; border-radius: 50%;
-      border: 2px solid #000; pointer-events: none; z-index: 9999;
-      transition: transform 0.2s ease;
-    `;
-    document.body.appendChild(cursor);
-
-    document.addEventListener('mousemove', (e) => {
-      cursor.style.left = e.clientX - 10 + 'px';
-      cursor.style.top = e.clientY - 10 + 'px';
-    });
-
-    document
-      .querySelectorAll('a, button, .faq-item, .nav-link')
-      .forEach((el) => {
-        el.addEventListener('mouseenter', () => {
-          cursor.style.transform = 'scale(1.5)';
-          cursor.style.borderColor = '#666';
-        });
-        el.addEventListener('mouseleave', () => {
-          cursor.style.transform = 'scale(1)';
-          cursor.style.borderColor = '#000';
-        });
-      });
-  }
 })();
